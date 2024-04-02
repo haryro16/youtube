@@ -1,0 +1,40 @@
+.subscribe-button {
+  background-color: #c4302b; /* Red color similar to YouTube */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  font: 14px Arial, sans-serif; /* Similar font */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: opacity 1s;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  vertical-align: top;
+  
+}
+
+.subscribe-button:hover {
+  opacity: 0.5; /* Darker red on hover */
+}
+
+.subscribe-button:active{
+  opacity: 0.4;
+}
+.join-button {
+  background-color: rgb(238, 235, 243);
+  color: rgb(55, 27, 196);
+  border-style: solid;
+  height: 30px;
+  vertical-align: top;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 50px;
+  
+}
+
+.join-button:hover{
+  background-color: rgb(55, 27, 196);
+  color: rgb(238, 235, 243);
+  box-shadow: 10px 10px 10px rgb(206, 195, 195);
+}
